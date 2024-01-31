@@ -1,0 +1,32 @@
+{
+    "name": "clean-theme",
+    "displayName": "Clean Theme",
+    "version": "0.1.0",
+    "engines": {
+      "vscode": "^1.22.0"
+    },
+    "description": "A nice, clean, dark mode theme for VS Code",
+    "author": "Teg64",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Teg64/clean-theme.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "scripts": {
+        "package": "vsce package"
+    },
+    "devDependencies": {
+        "vsce": "^2.15.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Clean Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/clean-theme.json"
+            }
+        ]
+    }
+}

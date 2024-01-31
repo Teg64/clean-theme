@@ -3,13 +3,13 @@
     "displayName": "Clean Theme",
     "version": "0.1.0",
     "engines": {
-      "vscode": "^1.22.0"
+        "vscode": "^1.22.0"
     },
     "description": "A nice, clean, dark mode theme for VS Code",
     "author": "Teg64",
+    "license": "MIT",
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Teg64/clean-theme.git"
+        "url": "https://github.com/Teg64/clean-theme.git"
     },
     "categories": [
         "Themes"
@@ -26,6 +26,11 @@
                 "label": "Clean Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/clean-theme.json"
+            },
+            {
+                "label": "Clean Theme [Mono Bracket Color]",
+                "uiTheme": "vs-dark",
+                "path": "./themes/clean-theme-mono-bracket-color.json"
             }
         ]
     }

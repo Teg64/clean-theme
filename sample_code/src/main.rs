@@ -1,5 +1,7 @@
+mod sample_extra;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world! {}", 100);
 
     let tokens: Vec<String> = vec![
         "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+",
@@ -21,6 +23,7 @@ impl Solution {
     }
 
     // Treat tokens as a stack, and recursively evaluate the expression via tokens.pop()
+    /// docstring
     fn evaluate(tokens: &mut Vec<String>) -> i32 {
         let token = Token::from(
             tokens
@@ -45,11 +48,13 @@ impl Solution {
     }
 }
 
+#[derive(Debug)]
 enum Token {
     Operator(OpType),
     Number(i32),
 }
 
+#[derive(Debug)]
 enum OpType {
     Add,
     Subtract,

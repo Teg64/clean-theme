@@ -2,7 +2,19 @@
 
 A nice, clean, dark mode theme for VS Code.
 
-This theme is based on how some websites render Markdown code blocks, including leetcode
+This theme is based on how some websites render Markdown code blocks, including leetcode.
+
+Comes with an extra variant that disables colorised bracket pairs.
+
+---
+
+Mono-colored brackets:
+
+![Mono Brackets](images/mono-brackets-sample.png)
+
+Colorized Bracket Pairs (standard):
+
+![Colorized Brackets](images/color-brackets-sample.png)
 
 ## How to install
 

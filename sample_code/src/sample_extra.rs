@@ -1,7 +1,5 @@
 // #![allow(dead_code)]
 
-// TODO: Adjust colors for Git Decorations and ErrorLens (mostly the warning color). Also the dividers in the right-click context menu are too bright
-
 use std::ops::Add;
 
 /// Very dangerous creature. Have caution

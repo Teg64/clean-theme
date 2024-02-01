@@ -28,7 +28,7 @@
                 "path": "./themes/clean-theme.json"
             },
             {
-                "label": "Clean Theme [Mono Bracket Color]",
+                "label": "Clean Theme (Mono Bracket Color)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/clean-theme-mono-bracket-color.json"
             }

@@ -31,6 +31,11 @@
                 "label": "Clean Theme (Mono Bracket Color)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/clean-theme-mono-bracket-color.json"
+            },
+            {
+                "label": "Clean Theme (Mono Bracket Color, No Bold)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/clean-theme-mono-bracket-color-no-bold.json"
             }
         ]
     }

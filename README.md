@@ -8,13 +8,17 @@ Comes with an extra variant that disables colorised bracket pairs.
 
 ---
 
+Colorized Bracket Pairs (standard):
+
+![Colorized Brackets](images/color-brackets-sample.png)
+
 Mono-colored brackets:
 
 ![Mono Brackets](images/mono-brackets-sample.png)
 
-Colorized Bracket Pairs (standard):
+Mono-colored brackets (No bold text):
 
-![Colorized Brackets](images/color-brackets-sample.png)
+![Mono Brackets](images/mono-brackets-no-bold-sample.png)
 
 ## How to install
 
